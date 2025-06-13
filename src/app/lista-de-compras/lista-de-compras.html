@@ -11,7 +11,7 @@
     name="item"
     [(ngModel)]="item"
 
-     >
+     >    <button type="submit">Adicionar</button>
       @for(variavel of lista;track variavel.id){
         <tr id="head">
           <td>{{variavel.id}}</td> <!--variavel é o elemento-->
@@ -21,7 +21,7 @@
         </tr>
 
       }
-    <button type="submit">Adicionar</button>
+
   </form>
 
 </div>
